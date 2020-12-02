@@ -1,0 +1,60 @@
+.Main {
+  text-align: center;
+  height: 680px;
+  border: 1px solid black;
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2017/03/29/1083401/d9abbfcec1d934802feab5f16ea03201.jpg);
+  object-fit: contain;
+}
+
+.Section1 {
+  height: 200px;
+  width: 50%;
+  margin: 100px auto;
+}
+
+.Section2 {
+  height: 150px;
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(
+    rgba(220, 20, 60, 0.158),
+    rgba(0, 0, 0, 0.541)
+  );
+}
+
+.Input {
+  width: 550px;
+  height: 50px;
+  border-radius: 6px;
+  margin-right: 40px;
+  padding-left: 30px;
+  border: none;
+  margin: 0;
+}
+
+.Button {
+  height: 55px;
+  width: 100px;
+  border-radius: 6px;
+  margin-left: 20px;
+  background-color: brown;
+}
+.Button:hover {
+  background-color: #3b0203;
+}
+
+.Section1 h1 {
+  font-size: 400%;
+  margin-bottom: 0;
+  color: white;
+}
+
+.Section1 p {
+  margin: 0 auto;
+  font-size: 25px;
+  color: white;
+}

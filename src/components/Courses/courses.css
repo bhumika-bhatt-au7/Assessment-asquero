@@ -1,0 +1,21 @@
+.Courses {
+  display: flex;
+  width: 75%;
+  margin: 100px auto;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Courses h2 {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 40px;
+}
+
+.CourseSection {
+  display: flex;
+  width: 100%;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

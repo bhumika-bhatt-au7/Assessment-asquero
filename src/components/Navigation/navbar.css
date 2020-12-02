@@ -1,0 +1,46 @@
+.Navbar {
+  height: 5rem;
+  position: sticky;
+  top: 0;
+  border: 1px solid #ddd;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.137);
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navbar p {
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  margin-left: 50px;
+}
+
+.Navbar .Input {
+  width: 550px;
+  height: 40px;
+  border-radius: 6px;
+  padding-left: 30px;
+  border: 1px solid lightgray;
+}
+
+.Navbar .Button {
+  height: 50px;
+  width: 130px;
+  border-radius: 6px;
+  background-color: brown;
+}
+
+.Navbar .Button:hover {
+  background-color: #3b0203;
+}
+
+@media (min-height: 5rem) {
+  .Navbar .Input {
+    display: none;
+  }
+  .Navbar .Button {
+    display: none;
+  }
+}

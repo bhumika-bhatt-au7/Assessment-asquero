@@ -1,0 +1,24 @@
+.FooterContainer {
+  height: 250px;
+  width: 50%;
+  margin: 150px auto 0 auto;
+  text-align: center;
+}
+
+p.Para {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.IconSection {
+  cursor: pointer;
+}
+
+.IconSection .Icon:hover {
+  color: red;
+}
+
+.Copyright {
+  color: grey;
+  margin-bottom: 50px;
+}
